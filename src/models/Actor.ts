@@ -1,5 +1,5 @@
 import { Model, DataTypes } from "sequelize";
-import { sequelize } from "./index";
+import { sequelize } from "./sequelize";
 
 export class Actor extends Model {
   public id!: number;

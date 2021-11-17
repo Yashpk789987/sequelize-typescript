@@ -1,7 +1,4 @@
 import { Sequelize } from "sequelize";
-import { Actor } from "./Actor";
-import { Movie } from "./Movie";
-import { ActorMovie } from "./ActorMovie";
 
 export const sequelize = new Sequelize({
   dialect: "mysql",
@@ -12,5 +9,3 @@ export const sequelize = new Sequelize({
     underscored: true,
   },
 });
-
-export { Movie, Actor, ActorMovie };

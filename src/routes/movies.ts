@@ -1,7 +1,7 @@
 import express, { Request, Response } from "express";
-import { ActorMovie } from "../models/ActorMovie";
-import { Actor } from "../models/Actor";
-import { Movie } from "../models/Movie";
+import { ActorMovie } from "../models";
+import { Actor } from "../models";
+import { Movie } from "../models";
 import { formatErrors } from "../utils/formatErrors";
 
 const router = express.Router();

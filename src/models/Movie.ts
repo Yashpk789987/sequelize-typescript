@@ -1,7 +1,7 @@
 import { BelongsToManyAddAssociationMixin } from "sequelize";
 import { Model, DataTypes } from "sequelize";
 import { Actor } from "./Actor";
-import { sequelize } from "./index";
+import { sequelize } from "./sequelize";
 
 export class Movie extends Model {
   public id!: number;

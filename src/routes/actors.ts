@@ -1,5 +1,5 @@
 import express, { Request, Response } from "express";
-import { Actor } from "../models/Actor";
+import { Actor } from "../models";
 import { formatErrors } from "../utils/formatErrors";
 
 const router = express.Router();
